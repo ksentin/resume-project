@@ -1,0 +1,104 @@
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #c6c6c6;
+    }
+
+    .sideinf {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        width: 25%;
+        background-color: #CFBECB;
+    }
+
+    .profile-image {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section1 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contacts {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .caption{
+        font-weight: bold;
+    }
+
+    .text{
+        margin-left: 10px;
+    }
+
+    .maininf {
+        text-align: left;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .inform {
+        margin-right: 200px;
+        margin-left: 20px;
+    }
+
+    h3 {
+        background-color: rgb(159, 143, 152);
+        color: #ffffff;
+    }
+
+    .maininf h3 {
+        color: rgb(77, 0, 45);
+        background-color: rgba(159, 143, 152, 0);
+    }
+
+    .name {
+        display: block;
+        flex-direction: row;
+    }
+
+    .name p {
+        margin-right: 5px; 
+    }
+
+    .pink-text {
+        color: rgb(77, 0, 45);
+        font-weight: bold;
+    }
+
+    .date strong {
+        font-weight: bold;
+        color: black;
+    }
+
+    .date {
+        font-weight: 10;
+        color: #A8A8A8;
+        font-size: small;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
